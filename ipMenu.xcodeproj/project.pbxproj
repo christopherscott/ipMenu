@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D0F09014426F6F001A77D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0F08F14426F6F001A77D5 /* Cocoa.framework */; };
+		83D0F09A14426F6F001A77D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D0F09814426F6F001A77D5 /* InfoPlist.strings */; };
+		83D0F09C14426F6F001A77D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F09B14426F6F001A77D5 /* main.m */; };
+		83D0F0A014426F6F001A77D5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 83D0F09E14426F6F001A77D5 /* Credits.rtf */; };
+		83D0F0A314426F6F001A77D5 /* ipMenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F0A214426F6F001A77D5 /* ipMenuAppDelegate.m */; };
+		83D0F0A614426F6F001A77D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0F0A414426F6F001A77D5 /* MainMenu.xib */; };
+		83D0F0AE14426F6F001A77D5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0F0AD14426F6F001A77D5 /* SenTestingKit.framework */; };
+		83D0F0AF14426F6F001A77D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0F08F14426F6F001A77D5 /* Cocoa.framework */; };
+		83D0F0B714426F6F001A77D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D0F0B514426F6F001A77D5 /* InfoPlist.strings */; };
+		83D0F0B914426F6F001A77D5 /* ipMenuTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83D0F0B814426F6F001A77D5 /* ipMenuTests.h */; };
+		83D0F0BB14426F6F001A77D5 /* ipMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F0BA14426F6F001A77D5 /* ipMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D0F0B014426F6F001A77D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D0F08214426F6F001A77D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D0F08A14426F6F001A77D5;
+			remoteInfo = ipMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D0F08B14426F6F001A77D5 /* ipMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0F08F14426F6F001A77D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83D0F09214426F6F001A77D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		83D0F09314426F6F001A77D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		83D0F09414426F6F001A77D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83D0F09714426F6F001A77D5 /* ipMenu-Info.plist */ = {isa = PBXFileReference; path = "ipMenu-Info.plist"; sourceTree = "<group>"; };
+		83D0F09914426F6F001A77D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D0F09B14426F6F001A77D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83D0F09D14426F6F001A77D5 /* ipMenu-Prefix.pch */ = {isa = PBXFileReference; path = "ipMenu-Prefix.pch"; sourceTree = "<group>"; };
+		83D0F09F14426F6F001A77D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		83D0F0A114426F6F001A77D5 /* ipMenuAppDelegate.h */ = {isa = PBXFileReference; path = ipMenuAppDelegate.h; sourceTree = "<group>"; };
+		83D0F0A214426F6F001A77D5 /* ipMenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipMenuAppDelegate.m; sourceTree = "<group>"; };
+		83D0F0A514426F6F001A77D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83D0F0AC14426F6F001A77D5 /* ipMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0F0AD14426F6F001A77D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		83D0F0B414426F6F001A77D5 /* ipMenuTests-Info.plist */ = {isa = PBXFileReference; path = "ipMenuTests-Info.plist"; sourceTree = "<group>"; };
+		83D0F0B614426F6F001A77D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D0F0B814426F6F001A77D5 /* ipMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipMenuTests.h; sourceTree = "<group>"; };
+		83D0F0BA14426F6F001A77D5 /* ipMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D0F08814426F6F001A77D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F09014426F6F001A77D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0F0A814426F6F001A77D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F0AE14426F6F001A77D5 /* SenTestingKit.framework in Frameworks */,
+				83D0F0AF14426F6F001A77D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D0F08014426F6F001A77D5 = {
+			isa = PBXGroup;
+			children = (
+				83D0F09514426F6F001A77D5 /* ipMenu */,
+				83D0F0B214426F6F001A77D5 /* ipMenuTests */,
+				83D0F08E14426F6F001A77D5 /* Frameworks */,
+				83D0F08C14426F6F001A77D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D0F08C14426F6F001A77D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F08B14426F6F001A77D5 /* ipMenu.app */,
+				83D0F0AC14426F6F001A77D5 /* ipMenuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D0F08E14426F6F001A77D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F08F14426F6F001A77D5 /* Cocoa.framework */,
+				83D0F0AD14426F6F001A77D5 /* SenTestingKit.framework */,
+				83D0F09114426F6F001A77D5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D0F09114426F6F001A77D5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F09214426F6F001A77D5 /* AppKit.framework */,
+				83D0F09314426F6F001A77D5 /* CoreData.framework */,
+				83D0F09414426F6F001A77D5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		83D0F09514426F6F001A77D5 /* ipMenu */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F0A114426F6F001A77D5 /* ipMenuAppDelegate.h */,
+				83D0F0A214426F6F001A77D5 /* ipMenuAppDelegate.m */,
+				83D0F0A414426F6F001A77D5 /* MainMenu.xib */,
+				83D0F09614426F6F001A77D5 /* Supporting Files */,
+			);
+			path = ipMenu;
+			sourceTree = "<group>";
+		};
+		83D0F09614426F6F001A77D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F09714426F6F001A77D5 /* ipMenu-Info.plist */,
+				83D0F09814426F6F001A77D5 /* InfoPlist.strings */,
+				83D0F09B14426F6F001A77D5 /* main.m */,
+				83D0F09D14426F6F001A77D5 /* ipMenu-Prefix.pch */,
+				83D0F09E14426F6F001A77D5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83D0F0B214426F6F001A77D5 /* ipMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F0B814426F6F001A77D5 /* ipMenuTests.h */,
+				83D0F0BA14426F6F001A77D5 /* ipMenuTests.m */,
+				83D0F0B314426F6F001A77D5 /* Supporting Files */,
+			);
+			path = ipMenuTests;
+			sourceTree = "<group>";
+		};
+		83D0F0B314426F6F001A77D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D0F0B414426F6F001A77D5 /* ipMenuTests-Info.plist */,
+				83D0F0B514426F6F001A77D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D0F08A14426F6F001A77D5 /* ipMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D0F0BE14426F6F001A77D5 /* Build configuration list for PBXNativeTarget "ipMenu" */;
+			buildPhases = (
+				83D0F08714426F6F001A77D5 /* Sources */,
+				83D0F08814426F6F001A77D5 /* Frameworks */,
+				83D0F08914426F6F001A77D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipMenu;
+			productName = ipMenu;
+			productReference = 83D0F08B14426F6F001A77D5 /* ipMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D0F0AB14426F6F001A77D5 /* ipMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D0F0C114426F6F001A77D5 /* Build configuration list for PBXNativeTarget "ipMenuTests" */;
+			buildPhases = (
+				83D0F0A714426F6F001A77D5 /* Sources */,
+				83D0F0A814426F6F001A77D5 /* Frameworks */,
+				83D0F0A914426F6F001A77D5 /* Resources */,
+				83D0F0AA14426F6F001A77D5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D0F0B114426F6F001A77D5 /* PBXTargetDependency */,
+			);
+			name = ipMenuTests;
+			productName = ipMenuTests;
+			productReference = 83D0F0AC14426F6F001A77D5 /* ipMenuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D0F08214426F6F001A77D5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 83D0F08514426F6F001A77D5 /* Build configuration list for PBXProject "ipMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83D0F08014426F6F001A77D5;
+			productRefGroup = 83D0F08C14426F6F001A77D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D0F08A14426F6F001A77D5 /* ipMenu */,
+				83D0F0AB14426F6F001A77D5 /* ipMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D0F08914426F6F001A77D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F09A14426F6F001A77D5 /* InfoPlist.strings in Resources */,
+				83D0F0A014426F6F001A77D5 /* Credits.rtf in Resources */,
+				83D0F0A614426F6F001A77D5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0F0A914426F6F001A77D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F0B714426F6F001A77D5 /* InfoPlist.strings in Resources */,
+				83D0F0B914426F6F001A77D5 /* ipMenuTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83D0F0AA14426F6F001A77D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D0F08714426F6F001A77D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F09C14426F6F001A77D5 /* main.m in Sources */,
+				83D0F0A314426F6F001A77D5 /* ipMenuAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0F0A714426F6F001A77D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0F0BB14426F6F001A77D5 /* ipMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D0F0B114426F6F001A77D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D0F08A14426F6F001A77D5 /* ipMenu */;
+			targetProxy = 83D0F0B014426F6F001A77D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D0F09814426F6F001A77D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D0F09914426F6F001A77D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83D0F09E14426F6F001A77D5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D0F09F14426F6F001A77D5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		83D0F0A414426F6F001A77D5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D0F0A514426F6F001A77D5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		83D0F0B514426F6F001A77D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D0F0B614426F6F001A77D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D0F0BC14426F6F001A77D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83D0F0BD14426F6F001A77D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83D0F0BF14426F6F001A77D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipMenu/ipMenu-Prefix.pch";
+				INFOPLIST_FILE = "ipMenu/ipMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83D0F0C014426F6F001A77D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipMenu/ipMenu-Prefix.pch";
+				INFOPLIST_FILE = "ipMenu/ipMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83D0F0C214426F6F001A77D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ipMenu.app/Contents/MacOS/ipMenu";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipMenu/ipMenu-Prefix.pch";
+				INFOPLIST_FILE = "ipMenuTests/ipMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83D0F0C314426F6F001A77D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ipMenu.app/Contents/MacOS/ipMenu";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipMenu/ipMenu-Prefix.pch";
+				INFOPLIST_FILE = "ipMenuTests/ipMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D0F08514426F6F001A77D5 /* Build configuration list for PBXProject "ipMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0F0BC14426F6F001A77D5 /* Debug */,
+				83D0F0BD14426F6F001A77D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D0F0BE14426F6F001A77D5 /* Build configuration list for PBXNativeTarget "ipMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0F0BF14426F6F001A77D5 /* Debug */,
+				83D0F0C014426F6F001A77D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83D0F0C114426F6F001A77D5 /* Build configuration list for PBXNativeTarget "ipMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0F0C214426F6F001A77D5 /* Debug */,
+				83D0F0C314426F6F001A77D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D0F08214426F6F001A77D5 /* Project object */;
+}
