@@ -198,6 +198,9 @@
 /* Begin PBXProject section */
 		83D0F08214426F6F001A77D5 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 83D0F08514426F6F001A77D5 /* Build configuration list for PBXProject "ipMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -381,6 +384,7 @@
 				GCC_PREFIX_HEADER = "ipMenu/ipMenu-Prefix.pch";
 				INFOPLIST_FILE = "ipMenu/ipMenu-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,6 +436,7 @@
 				83D0F0C014426F6F001A77D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D0F0C114426F6F001A77D5 /* Build configuration list for PBXNativeTarget "ipMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				83D0F0C314426F6F001A77D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
