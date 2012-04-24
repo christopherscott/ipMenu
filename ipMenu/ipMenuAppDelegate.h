@@ -10,8 +10,14 @@
 
 @interface ipMenuAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSStatusItem *ipStatusItem;
+    IBOutlet NSMenu *ipStatusItemMenu;
+    IBOutlet NSTabView *ipTabMenu;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)copyIPtoClipboard:(id)sender;
+- (IBAction)openNetworkPreferences:(id)sender;
 
 @end

@@ -14,7 +14,39 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    int i;
+    NSUInteger len;
+    NSArray *ipAddresses = [[NSHost currentHost] addresses];
+    ipStatusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength: NSVariableStatusItemLength] retain];
+    
+    // set the status item title to the ipv4, item[1] in the ipAddresses array
+    [ipStatusItem setTitle:[ipAddresses objectAtIndex:1]];
+    [ipStatusItem setHighlightMode:YES];
+    [ipStatusItem setMenu:ipStatusItemMenu];
+    
+    // set titles of menu items to be the ipaddresses themselves
+    for (i=0,len=[ipAddresses count]; i<len; i++) {
+        [[ipStatusItemMenu itemAtIndex:i] setTitle: [ipAddresses objectAtIndex:i]];
+    }
+    
+}
+
+- (IBAction)copyIPtoClipboard:(id)sender
+{
+    NSPasteboard *pboard = [NSPasteboard generalPasteboard];
+    [pboard clearContents];
+    [pboard writeObjects: [NSArray arrayWithObject: [sender title]]];
+}
+
+- (IBAction)openNetworkPreferences:(id)sender
+{
+    [[NSWorkspace sharedWorkspace] openFile: @"/System/Library/PreferencePanes/Network.prefPane"];
+}
+
+- (void) dealloc
+{
+    [ipStatusItem release];
+    [super dealloc];
 }
 
 @end
